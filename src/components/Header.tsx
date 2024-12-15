@@ -28,10 +28,14 @@ const Header = () => {
     <div className="w-full h-16 bg-gray-800 text-gray-100 sticky top-0 z-50">
       <div className="max-w-screen-xl mx-auto h-full flex items-center justify-between px-4">
         {/* Logo and Text */}
+         <Link href="/">
         <div className="flex items-center gap-2">
+          
           <Image src="/mylogo.png" alt="logo" width={40} height={40} />
           <span className="text-[10px] lg:text-base font-semibold">API-FETCH</span>
+      
         </div>
+        </Link>
 
         {/* Navigation Links */}
         <div className="flex items-center gap-2 lg:gap-6">
