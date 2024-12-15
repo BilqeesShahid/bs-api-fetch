@@ -14,7 +14,7 @@ const Accessories = async() => {
   const products = await getData()
   return (
     <div>
-      <Title title="Make Your Phone Look Beautiful By Elegant PhoneCase "/>
+      <Title title="Useful Accessories "/>
       <Products products={products} />
     </div>
   )
